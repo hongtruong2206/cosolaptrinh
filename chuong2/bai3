@@ -1,0 +1,6 @@
+import math
+a = int(input("Nhap hai canh ke cua tam giac vuong:\n"))
+b = int(input())
+n=a**2+b**2
+x = math.sqrt(n)
+print("Canh ke thu nhat la:", a, ", canh ke thu hai la:", b, ", co canh huyen =", round(x,2))
